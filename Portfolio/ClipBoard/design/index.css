@@ -50,7 +50,7 @@
 
     .headerImage {
       width: 100%;
-      background-image: url(/clipBoard/clipboard-landing-page-master/images/bg-header-desktop.png);
+      background-image: url(/Portfolio/ClipBoard/design/images/bg-header-desktop.png);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -62,7 +62,7 @@
     }
 
     .phoneTablet {
-      background-image: url(/clipBoard/clipboard-landing-page-master/images/image-devices.png);
+      background-image: url(/Portfolio/ClipBoard/design/images/image-devices.png);
       background-size: contain;
       width: 50vw;
       background-repeat: no-repeat;
@@ -73,7 +73,7 @@
     }
 
     .computer {
-      background-image: url(/clipBoard/clipboard-landing-page-master/images/image-computer.png);
+      background-image: url(/Portfolio/ClipBoard/design/images/image-computer.png);
       background-size: contain;
       width: 50vw;
       background-repeat: no-repeat;
