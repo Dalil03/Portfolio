@@ -4,95 +4,208 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio - Dalil Bousseiri</title>
   <link rel="stylesheet" href="/Portfolio/Style/index.css">
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <style>
-     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    body {
+      font-family: Poppins, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #242424;
+      color: white;
+    }
+
+    button{
+      cursor: pointer;
+    }
+
+    nav {
+      margin: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    nav a,
+    .navButton {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      padding: 10px 15px;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover,
+    .navButton:hover {
+      background-color: #444;
+    }
+
+    .menuIcon {
+      display: none;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+
+    .menuSlider {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #242424;
+      padding: 2rem;
+    }
+
+    .menuSlider ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .menuSlider.showMenuSlider {
+      display: flex;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .div1 h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .div1 p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      line-height: 1.8;
+    }
+
+    .divLog {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .divLog a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #444;
+      border-radius: 15px;
+      text-decoration: none;
+      font-weight: 600;
+      color: white;
+      transition: background-color 0.3s;
+    }
+
+    .divLog a:hover {
+      background-color: #555;
+    }
+
+    .div2 {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    @media (min-width: 768px) {
+      main {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 548px) {
+      .menuIcon {
+        display: block;
+      }
+
+      nav ul {
+        display: none;
+      }
+    }
   </style>
-   
-
-
-
 </head>
 
 <body>
+  <!-- Navigation -->
   <nav>
+    <div>
+      <ion-icon class="menuIcon" name="menu-outline"></ion-icon>
+    </div>
     <ul class="menuContent">
       <li><a href="/Portfolio/Pages/Work.html">Projets</a></li>
       <li><a href="/Portfolio/Pages/About.html">Moi</a></li>
+      <li><a href="/Portfolio/Pages//Formation.html">Formation</a></li>
       <li>
         <button class="navButton" onclick="location.href='mailto:bousseirid@gmail.com'">Contact</button>
       </li>
     </ul>
-    <ion-icon class="menuIcon" name="menu-outline"></ion-icon>
     <div class="menuSlider">
       <ul>
         <li><a href="About.html">Moi</a></li>
-        <button  onclick="location.href='mailto:bousseirid@gmail.com'">Contact</button>
         <li><a href="Work.html">Projets</a></li>
+        <li>
+          <button onclick="location.href='mailto:bousseirid@gmail.com'">Contact</button>
+        </li>
         <ion-icon class="closeMenuButton" name="close-circle-outline"></ion-icon>
       </ul>
     </div>
   </nav>
 
+  <!-- Section principale -->
   <main>
-    <!-- Premier grid -->
-    <div class="div1" style="grid-area: div1;">
-      <h1>
-        Salut, Je suis Dalil
-      </h1>
-        <p>Développeur Full Stack</p>
-      <p>Je suis un développeur passionné avec un désir constant <br> de grandir. 
-        Mon objectif est de consolider mes connaissances,<br>
-        d'apprendre davantage et d'acquérir de l'expérience.</p> <br>
+    <div class="div1" style="margin-left: 200px;">
+      <h1>Salut, Je suis Dalil</h1>
+      <p>Développeur Full Stack</p>
+      <p>Je suis un développeur passionné avec un désir constant de grandir.<br> Mon objectif est de consolider mes connaissances, d'apprendre davantage et d'acquérir de l'expérience.</p>
 
       <div class="divLog">
         <a href="https://www.linkedin.com/in/dalil-bousseiri-139024256/">
-          <ion-icon name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon> LinkedIn
         </a>
         <a href="https://github.com/Dalil03">
-          <ion-icon name="logo-github"></ion-icon>  
+          <ion-icon name="logo-github"></ion-icon> GitHub
         </a>
-        <!-- ici -->
-        <a class="download" href="./Portfolio/Pages/Assets/bousseiri-dalil-cv (1).pdf">
-         Télécharger mon cv
-        </a>
-        <a class="download" href="https://www.canva.com/design/DAF9tMiuDyo/rstAY0sGcVaPOcl6P5_FHw/edit">
-          veille technologique
-         </a>
-         <a class="download" href="/Portfolio/Images/synthèse.png">
-      Tableau de synthèse
-         </a>
-         
+        <a class="download" href="./Portfolio/Pages/Assets/bousseiri-dalil-cv (1).pdf">Télécharger mon CV</a>
+        <a class="download" href="/Portfolio/Pages/veille.html">Veilles technologiques</a>
+        <a class="download" href="/Portfolio/Images/synthèse.png">Tableau de synthèse</a>
       </div>
     </div>
 
-    <!-- Deuxieme grid -->
-    <img class="div2" src="/Portfolio/Images/me.png" alt="" style="grid-area: div2;">
+    <img class="div2" src="/Portfolio/Images/me.png" alt="Dalil">
   </main>
 
- 
-  
-    
-  </div>
-
+  <!-- Script -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const menuIcon = document.querySelector('.menuIcon');
       const menuSlider = document.querySelector('.menuSlider');
-      const closeMenuButton = document.querySelector('.closeMenuButton')
+      const closeMenuButton = document.querySelector('.closeMenuButton');
 
       menuIcon.addEventListener('click', () => {
         menuSlider.classList.add('showMenuSlider');
       });
+
       closeMenuButton.addEventListener('click', () => {
         menuSlider.classList.remove('showMenuSlider');
       });
     });
-
- 
   </script>
 </body>
 
