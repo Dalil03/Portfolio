@@ -1,0 +1,134 @@
+
+
+
+
+public int getNiveauxHabilitation(){
+  return this.sonHabilitation.getNiveau()
+}
+
+
+public AppliHoly(Utilisateur unUtilisateur) throws HeadlessException {
+this.leUtilConnecte = unUtilisateur;
+
+for(ElementsMenu : lesElementsMenu){
+  if(menu.getNiveauxHabilitation() <= leUtilConnecte.getNiveauxHabilitation()){
+    menu.rendreAccessible()
+  }
+}
+
+
+ALTER TABLE Client
+ADD AccordPubli BOOLEAN Default False
+
+
+Bonjour ,
+
+Nous avons changer notre politique en matière de données personnelles, c'est pourquoi nous vous offrons la possibilité de remplir le formulaire ci-dessous si vous souhaitez recevoir des communications commerciales de notre départ. Par défault, si vous ne remplissez pas le formulaire, nous considérerons automatiquement que vous ne souhaitez pas recevoir d'offres commerciales.
+
+https.....
+
+Cordialement
+dsdsdssdddsd
+
+
+
+B1.4 log integrité
+
+-obtention consentement par le biais du formulaire
+-documentation sur les details du consentements stockés dans une base de données
+-Utilisation d'application offrant la possibilité de signer numériquement
+
+
+public(int , )netxJJJDJDJ{
+this.leUtilConnecte = unUtilisateur
+
+  for(ElementsMenu : lesElementsMenu){
+    if(menu.getNiveauxHabilitation <= leUtilConnecte.getNiveauxHabilitation())
+    menu.rendreAccessible()
+  }
+
+    
+  
+  
+  R1 : Création ou modification d’un contrat avec un acompte supérieur ou égal au montant total du contrat.
+
+Impact : Cela peut entraîner des pertes financières directes importantes pour l’entreprise.
+Gravité (élevée) : La perte de revenus affecte directement la santé financière de l’entreprise.
+
+
+R2 : Création ou modification d’un contrat avec un montant facturé inférieur à 75 euros par jour et par personne.
+
+Impact : Cela risque de générer des pertes importantes, car le montant ne couvre pas les frais de fonctionnement (hébergement, transport, etc.).
+Gravité (élevée) : Bien que l’impact unitaire soit faible, des abus fréquents peuvent entraîner un déficit.
+
+ 
+
+
+R1
+cela peut causer des pertes importantes pour l'entreprise 
+R1Cela peut causer des pertes financières importaznte pour l'entreprisecela peut creer des pertes financieres importantes pour l'entreprisecela peut créer des pertes financières importantes pour l'entreprise 
+cela peut causer des pertes importantes financièresp our l'entreprise
+cela peut causer des pertes financièresimportantes pour l'entreprisecela peut creer des pertes finacieres importantes pour l'entrereprise
+cela peut creer des pertes financieres importantes pour l'entrepriuse
+cela peut creer des pertes financieres importantes pour l'entreprisecela peut creer des pertes financieres importantes pour l'entreprise 
+cela peut creer des pertes financieres importantes pour l'entreprise
+cela peut crrer des pertes financieres impiortantes piout l'entreprisecela peut creer des pertesfinancieres importantes pour l'entreprise 
+
+
+cela peut creer ds pertes financieres importantes pour l'entreprise
+
+cela peut créert des perttes financieres importantes pour l'entrepriser
+
+
+cela peut créer des pertes financi"res importantes pour l'ebntrepirse 
+cela peut créer des pertes financières importantzes pour l'entreprise
+
+
+cela peut causder des pertes financieres a l'entreprise 
+
+cela peut causer des pertes financieres importantes pour l'entreprise
+cela peut causer des pertes financieres importantes pour l'entreprise
+
+cela peut créer des pertes financieres importantes pour l'entreprise
+
+cela peut créer des pertes financières importantes pour l'entreprise
+cela peut créer des pertes financieres pour l'entreeprus
+
+
+R1
+perte financiere car aucun paiement supplémentaire ne sera dû
+R1 perte financiere importante car aucun payement suplémentaire ne sera duperte financiere,aucun paiemdent supplementaire ne sera du 
+perte financiere car aucun paiement supplementaire ne sera du
+perte financiere importante car aucn paiement supllementaire ne sera du
+perte financiere importante car aucun paiement supplementaire ne sera du
+perte financiere importante car aucun paiement su
+perte potentielle pour l'entreprise car aucn paiement supplementaire sera du
+perte potentielle pour lentreprise car aucun paiement supplementaire ne sera du 
+perte potentielle pour l'entreprise, car aucun paiement supplementaire ne sera du
+perte potentielle por l'entrpidz, car aucun cout suplementaire ne sera du
+petr potentielle car aucun paiement supplementaire nest du
+
+perte financiere potentilelel pour lentrepirse car aucun paiement suoplementairenesera du
+R2
+Perte potentielle car les couts(Hebergements, transports) ne sont pas couvert
+perte potentielle car les couts hebergement transporte pas couvert
+
+perte finaciere potentielle car aucun cout hebergement trnasports ne sera couvert
+perte potentielle importante car aucun cout hebergement et transport ne sera couvert
+
+perte potentielle car aucun cout hebergement transport ne ser adu
+perte potentielle car auncun couthebergement et transport ne sera couvert*
+
+
+R1 
+
+perte potentielle , car aucun paiement supplementaire ne sera du
+
+
+
+B2.2
+
+SELECT c.idClient, c.nom, c.prenom 
+FROM Client c
+JOIN Contrat_Voyage cv ON c.idClient = cv.idClient
+WHERE cv.acompte >= cv.montantApayer

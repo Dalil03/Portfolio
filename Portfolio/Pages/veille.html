@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Veille Technologique - PDG Yu en Chine</title>
+  <title>Veille Technologique</title>
   <style>
     body {
       font-family: 'Roboto', Arial, sans-serif;
@@ -19,27 +19,31 @@
       text-align: center;
       border-bottom: 5px solid #005A9E;
     }
-    section {
+    .container {
       margin: 40px auto;
       padding: 30px;
       max-width: 900px;
+    }
+    .card {
       background-color: white;
       border-radius: 12px;
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      padding: 30px;
     }
-    section h2 {
+    .card h2 {
       text-align: center;
       font-size: 1.8rem;
       margin-bottom: 20px;
       color: #0078D4;
     }
-    section p {
+    .card p {
       font-size: 1.1rem;
       line-height: 1.6;
       margin-bottom: 20px;
       text-align: justify;
     }
-    section a {
+    .card a {
       display: inline-block;
       text-decoration: none;
       color: white;
@@ -50,7 +54,7 @@
       text-align: center;
       transition: background-color 0.3s;
     }
-    section a:hover {
+    .card a:hover {
       background-color: #005A9E;
     }
     footer {
@@ -66,19 +70,37 @@
 </head>
 <body>
   <header>
-    <h1>Veille Technologique : PDG Yu en Chine</h1>
+    <h1>Veille Technologique</h1>
   </header>
 
-  <section>
-    <h2>Résumé</h2>
-    <p>
-      PDG Yu est une figure influente de l'industrie technologique chinoise, connue pour son leadership visionnaire et ses contributions dans le domaine des innovations. Elle incarne le succès des entreprises émergentes et leur impact mondial, notamment à travers des initiatives stratégiques dans les marchés numériques. Sous sa direction, des progrès significatifs ont été réalisés en intelligence artificielle, commerce en ligne et transformation numérique. Sa vision continue de transformer l'économie numérique chinoise, tout en renforçant son rayonnement international.
-    </p>
-    <a href="https://www.canva.com/design/DAF9tMiuDyo/rstAY0sGcVaPOcl6P5_FHw/edit">Lien vers la veille technologique</a>
-  </section>
+  <div class="container">
+    <!-- Première card : PDG Yu -->
+    <div class="card">
+      <h2>Résumé : PDG Yu en Chine</h2>
+      <p>
+        PDG Yu est une figure influente de l'industrie technologique chinoise, connue pour son leadership visionnaire et ses contributions dans le domaine des innovations. Elle incarne le succès des entreprises émergentes et leur impact mondial, notamment à travers des initiatives stratégiques dans les marchés numériques. Sous sa direction, des progrès significatifs ont été réalisés en intelligence artificielle, commerce en ligne et transformation numérique. Sa vision continue de transformer l'économie numérique chinoise, tout en renforçant son rayonnement international.
+      </p>
+      <a href="https://www.canva.com/design/DAF9tMiuDyo/rstAY0sGcVaPOcl6P5_FHw/edit">Lien vers la veille technologique</a>
+    </div>
 
-<!-- <footer>
-    &copy; 2024 Veille Technologique. Tous droits réservés.
-  </footer>   -->
+    <!-- Deuxième card : NVIDIA CUDA -->
+    <div class="card">
+      <h2>Résumé : NVIDIA CUDA</h2>
+      <p>
+        NVIDIA CUDA est une plateforme révolutionnaire pour le calcul parallèle, permettant aux développeurs d'exploiter la puissance des GPU pour accélérer les performances des applications. Cette technologie a transformé des domaines tels que l'intelligence artificielle, l'apprentissage automatique et la simulation scientifique. Grâce à CUDA, les calculs massifs et complexes peuvent être exécutés des milliers de fois plus rapidement qu'avec des CPU traditionnels. Elle est devenue une norme incontournable pour les chercheurs et les ingénieurs, favorisant l'innovation dans des secteurs clés. CUDA continue de définir l'avenir du calcul haute performance.
+      </p>
+      <a href="https://developer.nvidia.com/cuda-zone">Lien vers la veille technologique</a>
+    </div>
+
+    <!-- Troisième card : Sujet précédent (placeholder) -->
+    <!-- <div class="card">
+      <h2>Résumé : Sujet précédent</h2>
+      <p>
+        Ce sujet traite d’une avancée significative dans le domaine des technologies émergentes. Il met en lumière des innovations récentes ayant transformé les industries numériques. Avec un focus sur des méthodologies modernes et une application étendue, il illustre comment la collaboration entre les technologies établies et émergentes pousse l'innovation. Cette veille souligne également les enjeux et opportunités créés pour les entreprises dans un environnement technologique en évolution constante.
+      </p>
+      <a href="#">Lien vers la veille technologique</a>
+    </div> -->
+  </div>
+
 </body>
 </html>
